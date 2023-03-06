@@ -1,0 +1,580 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto:wght@300;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.col-50 {
+  width: 50%;
+  padding: 0px 15px;
+  float: left;
+}
+
+.col-33 {
+  width: 33.33%;
+  padding: 0px 15px;
+  float: left;
+}
+
+.col-25 {
+  width: 25%;
+  padding: 0px 15px;
+  float: left;
+}
+
+.container-full {
+  width: 100%;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-full::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-full::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top-header {
+  background-color: #1d1d1d;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #dee1e6;
+  padding: 15px 3px;
+  display: inline-block;
+  font-size: smaller;
+  font-family: "Poppins", sans-serif;
+}
+
+.follow-us {
+  padding: 10px 10px;
+}
+
+.social {
+  padding: 0px !important;
+}
+
+.call a:hover {
+  color: #af1c2a;
+}
+.regestar a {
+  text-decoration: none;
+  color: #dee1e6;
+  padding: 15px 16px;
+  display: inline-block;
+  font-size: smaller;
+  font-family: "Poppins", sans-serif;
+  float: right;
+  transition: 0.3;
+}
+
+.fa-user,
+.fa-sign-in-alt {
+  padding: 0px 5px;
+}
+
+.regestar a:hover {
+  color: #ff1949;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  float: left;
+  padding: 25px 15px;
+  font-weight: bold;
+  text-align: center;
+  font: size 1.5 rem;
+  color: #252525;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  border-bottom: 5px solid #ff1949;
+}
+
+.col-10 {
+  width: 10%;
+  float: left;
+  padding: 15px 15px;
+}
+
+.col-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.col-20 {
+  width: 20%;
+  padding: 0px 0px;
+  float: right;
+}
+
+.fa-shopping-bag {
+  padding: 25px 15px;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.fa-file-alt {
+  padding: 25px 15px;
+  display: inline-block;
+}
+
+.fa-search {
+  padding: 25px 15px;
+  display: inline-block;
+}
+
+.productno {
+  font-family: sans-serif;
+  background-color: #ff1949;
+  color: #fff;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  left: -8px;
+  top: 5px;
+  font-weight: 100;
+  font-size: 0.7rem;
+  padding: 3px 2px 0px 4px;
+}
+.bg {
+  width: 100%;
+  height: 500px;
+  display: inline-block;
+  background: rgb(17, 1, 23);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 1, 23, 0.989233193277311) 0%,
+    rgba(9, 105, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.headline {
+  color: #fff;
+  top: 50px;
+  position: relative;
+  font-size: 6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-text {
+  top: 100px;
+  position: relative;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.redemore {
+  top: 150px;
+  position: relative;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 25px;
+  margin-right: 30px;
+  background: none;
+  border: 2px solid #fff;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.applynow {
+  top: 150px;
+  position: relative;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 25px;
+  margin-right: 30px;
+  background: #ff1949;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.show-wrapper {
+  width: 100%;
+  display: inline-block;
+  clear: both;
+  overflow: hidden;
+}
+
+.courses > img {
+  width: 100%;
+  display: inline-block;
+}
+
+.btnc {
+  position: relative;
+  left: 72%;
+  top: 190px;
+  width: 77px;
+  height: 0px;
+
+  color: #fff;
+}
+
+.btnc span {
+  width: 98px;
+  height: auto;
+  background-color: #ff1949;
+  display: inline-block;
+  padding: 7px;
+  transition: 0.3;
+}
+
+.btnc span:hover {
+  background-color: #252525;
+  color: #fff;
+}
+
+.courses p {
+  padding: 4px 0px;
+}
+
+.line {
+  width: 35px;
+  border: 2px solid #ff1949;
+  transition: 0.3s;
+}
+
+.line:hover {
+  width: 45px;
+}
+
+.courses h2 {
+  color: #2e2e2e;
+}
+.courses .justify {
+  color: #aeaeae;
+  text-align: justify;
+  padding: 20px 0px;
+}
+
+.fa-star {
+  padding: 7px 7px;
+  display: inline-block;
+}
+.fa-users {
+  padding: 7px 7px;
+  display: inline-block;
+}
+.course-free {
+  padding: 0px 0px;
+  float: right;
+  display: inline-block;
+  color: #ff1949;
+  font-size: 1.5rem;
+}
+
+.fa-users p {
+  padding: 0px 10px;
+  display: inline-block;
+}
+
+.fa-star p {
+  padding: 0px 10px;
+  display: inline-block;
+}
+
+.left-sale {
+  width: 100%;
+  height: 400px;
+  background-color: #ff1949;
+  color: #fff;
+  display: inline-block;
+  padding: 140px 80px;
+  padding-right: 0px;
+}
+
+.left-sale h2 {
+  font-size: 2.8rem;
+  padding-bottom: 10px;
+}
+
+.right-img img {
+  width: 100%;
+  height: 400px;
+}
+
+.right-sale {
+  color: #252525;
+  width: 100%;
+  height: 400px;
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 140px 80px;
+  padding-right: 0px;
+}
+
+.right-sale h2 {
+  font-size: 2.8rem;
+  padding-bottom: 10px;
+}
+
+.col-read-more {
+  color: #444444;
+  font-weight: bold;
+}
+.col-read {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Padding-Bottom*/
+.pad-btm {
+  padding-bottom: 50px;
+}
+
+.pad-0 {
+  padding: 0px 0px !important;
+  margin: -2px;
+}
+
+.col-16 {
+  width: 16.66%;
+  float: left;
+  padding: 0px 15px;
+}
+
+.col-16 img {
+  width: 100%;
+}
+
+.col-16 p {
+  padding: 10px 0px;
+}
+
+.team-mar-top-up {
+  margin: 100px 0px;
+}
+
+.testomila-with {
+  width: 100%;
+  background-color: #ff1a49;
+  height: 462px;
+}
+.testo img {
+  padding-top: 130px;
+  padding-bottom: 193px;
+  padding-right: 50px;
+}
+
+.studen-details {
+  padding-top: 130px;
+  color: #fff;
+}
+.col-70 {
+  width: 70%;
+}
+.studen-details h2 {
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+
+.chevron-left,
+.chevron-right {
+  padding-top: 30px !important;
+  font-size: 3rem;
+}
+
+.video-sec1 p {
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  color: #444444;
+}
+i .fa-check {
+  display: inline-block;
+  color: #ff1a49;
+}
+
+.col-5 {
+  width: 220px;
+  height: 33px;
+  float: left;
+  padding: 0px 0px;
+  display: block;
+  margin-top: 30px;
+}
+
+.client img {
+  width: 100%;
+}
+
+.client-log:hover {
+  color: #ff1a49;
+}
+
+/*
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+*/
+
+#footer {
+  width: 100%;
+  background-color: #1d1d1d;
+}
+
+.foter-left {
+  float: left;
+  color: #c5c5c5;
+  padding: 50px 0px;
+}
+
+.contact-foter {
+  float: right;
+  padding: 50px 0px;
+}
+
+.contact-foter a {
+  text-decoration: none;
+  color: #aeaeae;
+}
+
+.tp-footer {
+  width: 100%;
+  background-color: #252525;
+  height: 450px;
+  margin-top: 50px;
+}
+
+.pad-60 {
+  padding: 115px 0px;
+}
+
+.about {
+  color: #fff;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.fa-map-marker-alt {
+  color: #c5c5c5;
+}
+
+.fa-phone-square-alt {
+  color: #c5c5c5;
+  padding: 20px 0px;
+}
+
+.fa-clock {
+  color: #c5c5c5;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+/* Sign Up Css*/
+
+.sign-bg {
+  background: rgb(183, 255, 55);
+  background: radial-gradient(
+    circle,
+    rgba(183, 255, 55, 1) 0%,
+    rgba(0, 246, 123, 1) 48%,
+    rgba(236, 255, 0, 1) 100%
+  );
+  width: 100%;
+  height: 100vh;
+}
+
+.login-box {
+  position: absolute;
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+
+  background: #fff;
+  left: 415px;
+  top: 90px;
+  box-shadow: 1px 3px 32px 14px #fffa5a;
+}
+
+.sign-box {
+  text-align: center;
+}
+
+.sign-box i {
+  padding: 10px 10px;
+  margin-top: 10px;
+  color: #aeaeae;
+  transition: 1s;
+  border: 1px solid #aeaeae;
+  border-radius: 5px;
+}
+
+.sign-box i:hover {
+  color: #444444;
+  background-color: #aeaeae;
+  color: #dee1e6;
+}
+
+.userData label {
+  margin-right: 98px;
+  margin-left: 85px;
+}
+
+.userData input {
+  border: 1px solid #aeaeae;
+}
+
+.userData input,
+[type="email"] {
+  padding: 7px;
+}
+
+.userData {
+  font-weight: bold;
+}
+
+.creatAcount {
+  margin: 75px 195px;
+  padding: 10px 15px;
+  font-weight: bold;
+  background-color: #ff1949;
+  color: #fff;
+  border: none;
+}
+
+.jsBox {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #444444;
+}
